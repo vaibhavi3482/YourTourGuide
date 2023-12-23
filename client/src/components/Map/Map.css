@@ -1,0 +1,33 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0
+}
+
+.map{
+    border : white 1px solid;
+    padding : 20px;
+    display: flex;
+    width : 100%;
+    align-items: center;
+    justify-content: center;
+    height : 100%;
+    border-radius : 5px
+}
+
+.icon{
+    width:14px
+}
+
+.paper{
+    width : 75px;
+    /* height : 150px; */
+    padding : 2px;
+    background-color: whitesmoke;
+}
+.papername{
+    color: black;
+}
+.paperimg{
+    width : 100%;
+}

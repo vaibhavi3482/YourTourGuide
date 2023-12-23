@@ -1,0 +1,52 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0
+  }
+
+.card{
+    display : flex;
+    margin : auto;
+    flex-direction: column;
+    padding : 10px;
+    /* align-items: center; */
+    width : calc(100% - 20px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardimg{
+    /* margin : 10px ; */
+    width : 100%
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box > .left{
+    font-weight: 700;
+}
+.box > .right{
+    color: rgb(43, 43, 43);
+}
+
+.icon{
+    width : 18px;
+}
+/* .cuisinecontent{
+    display: flex;
+    width : 100%;
+} */
+.cuisine{
+    width : auto;
+    display: inline-block;
+    margin: 2px 5px;
+}
+.box2{
+    display:flex;
+    justify-content: space-evenly;
+}
+.ratingcont{
+    display: flex;
+    justify-content: space-between;
+}

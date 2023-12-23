@@ -1,0 +1,7 @@
+.icon{
+    width : 14px;
+    display : inline-block
+}
+.ratingcontent{
+    display: flex;
+}
